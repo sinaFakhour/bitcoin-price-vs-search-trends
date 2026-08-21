@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 import matplotlib.dates as dtime
 
 # Read data files
-df_btc_price = pd.read_csv('BTC Data/Bitcoin Historical Data.csv')
-df_btc_trends = pd.read_csv('BTC Data/multiTimeline.csv',
+df_btc_price = pd.read_csv('Data/Bitcoin Historical Data 2024.csv')
+df_btc_trends = pd.read_csv('Data/multiTimeline 2024.csv',
                             skiprows=2)
 
 # Clean and format data
