@@ -48,7 +48,7 @@ ax1.set_xlabel("Date")
 ax1.set_ylabel("Price", color="green", fontsize=14)
 ax2.set_ylabel("Search", color="red", fontsize=14)
 ax1.set_ylim(0, df_btc_data["Price"].max() * 1.1)
-ax2.set_ylim(0, df_btc_data["Search NO."].max() * 1.1)
+ax2.set_ylim(0, 110)
 
 ax1.xaxis.set_major_locator(year_major)
 ax1.xaxis.set_minor_locator(month_minor)
