@@ -48,11 +48,11 @@ Bitcoin has been a major trend recently, with bears expecting a drop to $40,000 
 
 I looked at the period from 2010, when Bitcoin was not yet widely known, until the beginning of 2024, and then separately from 2024 to the present, during which we saw a major uptrend that pushed Bitcoin's price above $100,000 for the first time.
 
-As we can see in the 2010–2023 graph, in the early years Bitcoin attracted far more search interest than its price would suggest. However, there was a strong visual correlation between the two, forming peaks and valleys together; for example, peaks in early 2014 and early 2018, and a valley around 2019. Around 2021, Bitcoin's price saw a sharp increase that overtook search interest, coinciding with the COVID-19 pandemic and the US interest rate cut. Still, the correlation in forming highs and lows persisted; for instance, both the search trend and BTC price formed a low around 2023.
+As we can see in the 2010–2023 graph, in the early years Bitcoin attracted far more search interest than its price would suggest. However, there was a strong visual correlation between the two, forming peaks and valleys together; for example, peaks in early 2014 and early 2018, and a valley around 2019. Around 2021, Bitcoin's price saw a sharp increase that overtook search interest, coinciding with the COVID-19 pandemic and the unprecedented monetary stimulus that followed, including the Fed's reduction of rates to 0–0.25% in March 2020. Still, the correlation in forming highs and lows persisted; for instance, both the search trend and BTC price formed a low around 2023.
 
 Looking more closely at the 2024-to-present period, we still see a relationship between the two variables, though they appear less correlated and somewhat less volatile. One interesting observation is that a rise in search trend isn't specific to price increases; even sharp drops attract attention to Bitcoin. Another important observation is that the all-time high in search trends was at the end of 2017, and it has been on a declining trend since then, even after BTC passed $100,000 for the first time in history.
 
-As a conclusion, there are two scenarios: first, since the number of searches is on a declining trend, we may not be able to anticipate major BTC price increases before or as they happen. Second, an event, such as a new pandemic or a major political or economic development affecting cryptocurrencies, similar to what we saw in 2017, could break the bearish trend in search interest, leading to a sharp increase in both price and search volume.
+As a conclusion, there are two scenarios: first, the declining search trend suggests that search interest alone may not be a reliable indicator of future major BTC price movements. Second, an event, such as a new pandemic or a major political or economic development affecting cryptocurrencies, similar to what we saw in 2017, could break the bearish trend in search interest, leading to a sharp increase in both price and search volume.
 
 ## Challenges & What I Learned
 - Initially treated the price and search columns as numeric, but they loaded as 
@@ -66,3 +66,4 @@ As a conclusion, there are two scenarios: first, since the number of searches is
   directly comparable across separate pulls
 - Add a simple correlation coefficient between price and search volume
 - Automate data updates via an API instead of manual CSV exports
+- Add a correlation coefficient
