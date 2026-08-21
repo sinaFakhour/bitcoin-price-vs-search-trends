@@ -31,10 +31,10 @@ python code/bitcoin_2026.py
 ```
 
 ## Part 1: 2010–2023
-![Bitcoin Price and Search Trend 2010-2023](graphs/btc 2024 graph.png)
+![Bitcoin Price and Search Trend 2010-2023](graphs/btc_2024_graph.png)
 
 ## Part 2: 2024–Present
-![Bitcoin Price and Search Trend 2024-Present](graphs/btc 2026 graph.png)
+![Bitcoin Price and Search Trend 2024-Present](graphs/btc_2026_graph.png)
 
 ## A Note on the Dual-Axis Chart
 This chart uses two independent y-axes — one for price, one for search interest. 
