@@ -27,14 +27,14 @@ Run each script from the repository root (not from inside `Code/`), since file
 paths are relative to the root:
 ```
 python Code/bitcoin_2010_2023.py
-python Code/bitcoin_2024_present.py
+python Code/bitcoin_2026.py
 ```
 
 ## Part 1: 2010–2023
-![Bitcoin Price and Search Trend 2010-2023](Graph/bitcoin_2010_2023.png)
+![Bitcoin Price and Search Trend 2010-2023](Graph/btc 2024 graph.png)
 
 ## Part 2: 2024–Present
-![Bitcoin Price and Search Trend 2024-Present](Graph/bitcoin_2024_present.png)
+![Bitcoin Price and Search Trend 2024-Present](Graph/btc 2026 graph.png)
 
 ## A Note on the Dual-Axis Chart
 This chart uses two independent y-axes — one for price, one for search interest. 
