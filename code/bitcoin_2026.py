@@ -11,7 +11,7 @@ df_btc_trends = pd.read_csv('Data/multiTimeline 2026.csv',
 # Clean and format data
 df_btc_price.drop(columns=['Open', 'High', 'Low', 'Vol.', 'Change %'],
                   inplace=True)
-df_btc_trends.rename(columns={"Month": "Date", "Bitcoin: (Worldwide)": "Search NO."}, inplace=True)
+df_btc_trends.rename(columns={"Week": "Date", "Bitcoin: (Worldwide)": "Search NO."}, inplace=True)
 
 # Date format
 df_btc_price.Date = pd.to_datetime(df_btc_price.Date)
