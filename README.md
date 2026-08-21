@@ -66,4 +66,3 @@ As a conclusion, there are two scenarios: first, the declining search trend sugg
   directly comparable across separate pulls
 - Add a simple correlation coefficient between price and search volume
 - Automate data updates via an API instead of manual CSV exports
-- Add a correlation coefficient
