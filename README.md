@@ -37,7 +37,7 @@ python code/bitcoin_2026.py
 ![Bitcoin Price and Search Trend 2024-Present](graphs/btc_2026_graph.png)
 
 ## A Note on the Dual-Axis Chart
-This chart uses two independent y-axes — one for price, one for search interest. 
+This chart uses two independent y-axes, one for price, one for search interest. 
 The search axis is fixed to 0–100 (Google Trends' native scale), but the price 
 axis auto-scales to its own range. This means visual overlap between the two 
 lines shows general co-movement over time, not a precise numeric relationship; 
@@ -52,7 +52,7 @@ As we can see in the 2010–2023 graph, in the early years Bitcoin attracted far
 
 Looking more closely at the 2024-to-present period, we still see a relationship between the two variables, though they appear less correlated and somewhat less volatile. One interesting observation is that a rise in search trend isn't specific to price increases; even sharp drops attract attention to Bitcoin. Another important observation is that the all-time high in search trends was at the end of 2017, and it has been on a declining trend since then, even after BTC passed $100,000 for the first time in history.
 
-As a conclusion, there are two scenarios: first, the declining search trend suggests that search interest alone may not be a reliable indicator of future major BTC price movements. Second, an event, such as a new pandemic or a major political or economic development affecting cryptocurrencies, similar to what we saw in 2017, could break the bearish trend in search interest, leading to a sharp increase in both price and search volume.
+As a conclusion, there are two scenarios: first, the declining search trend suggests that search interest alone may not be a reliable indicator of future major BTC price movements. Second, an event, such as a new pandemic or a major political or economic development affecting cryptocurrencies, similar to what we saw in 2021, could break the bearish trend in search interest, leading to a sharp increase in both price and search volume.
 
 ## Challenges & What I Learned
 - Initially treated the price and search columns as numeric, but they loaded as 
